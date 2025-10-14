@@ -1,0 +1,152 @@
+/*!*****************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/style.css ***!
+  \*****************************************************************/
+body {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+p {
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+pre {
+  font-size: large;
+  margin: 3px 0;
+}
+
+h1 {
+  margin: 12px 0;
+  font-size: 24px;
+}
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 8x 0;
+  font-size: 18px;
+}
+
+/*!******************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/components/header/header.style.css ***!
+  \******************************************************************************************/
+.app-header {
+    font-size:large;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+    padding: 8px;
+    background-color: blanchedalmond;
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+}
+
+.app-header .active {
+    font-weight: 700;
+    background-color: orange;
+}
+
+.header-link {
+    text-decoration: none;
+    padding: 8px;
+}
+
+.app-header .menu {
+    display: flex;
+    gap: 10px;
+    margin-right: 36px;
+}
+
+.logo-text {
+    font-weight: 700;
+    margin-left: 36px;
+}
+/*!********************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/pages/TodoList/todoListapp.style.css ***!
+  \********************************************************************************************/
+.main {
+    line-height: 1.2;
+    font-size: 18px;
+    text-align: center;
+    background-color: #66deb2;
+}
+
+h3 {
+    text-align: center;
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 75%;
+}
+
+.form {
+    background: #fff;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.form-input {
+    min-height: 15px;
+    padding: 6px;
+    width: 100%;
+    border: 1px solid;
+}
+
+.form-add-todo {
+    /* width: 100%; */
+}
+
+.form-btn {
+    background: #0be69d;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+}
+
+.todo-item {
+    display: flex;
+    background: #fff;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 6px;
+}
+.todo-item-checked {
+    text-decoration: line-through;
+}
+.todo-item-description {
+    flex-grow: 1;
+    padding-left: 10px;
+}
+.todo-item-delete {
+    background: orange;
+    border: none;
+    cursor: pointer;
+    width: 95px;
+    padding: 6px;
+    border-radius: 5px;
+}
+
+.form-error-message {
+    font-size: small;
+    color: red;
+}
+/*!*********************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/app.style.css ***!
+  \*********************************************************************/
+.block {
+  padding: 6px 0;
+  text-align: center;
+}
+
+
