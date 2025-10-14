@@ -1,0 +1,9 @@
+*.log
+*.zip
+*.mp4
+*.pp*
+node_modules
+server
+client
+TODO-Prev
+test*.*

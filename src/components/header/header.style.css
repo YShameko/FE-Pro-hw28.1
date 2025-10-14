@@ -1,0 +1,33 @@
+.app-header {
+    font-size:large;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+    padding: 8px;
+    background-color: blanchedalmond;
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+}
+
+.app-header .active {
+    font-weight: 700;
+    background-color: orange;
+}
+
+.header-link {
+    text-decoration: none;
+    padding: 8px;
+}
+
+.app-header .menu {
+    display: flex;
+    gap: 10px;
+    margin-right: 36px;
+}
+
+.logo-text {
+    font-weight: 700;
+    margin-left: 36px;
+}

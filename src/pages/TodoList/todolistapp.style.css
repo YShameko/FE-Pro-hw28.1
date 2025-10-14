@@ -1,0 +1,74 @@
+.main {
+    line-height: 1.2;
+    font-size: 18px;
+    text-align: center;
+    background-color: #66deb2;
+}
+
+h3 {
+    text-align: center;
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 75%;
+}
+
+.form {
+    background: #fff;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.form-input {
+    min-height: 15px;
+    padding: 6px;
+    width: 100%;
+    border: 1px solid;
+}
+
+.form-add-todo {
+    width: 100%;
+}
+
+.form-btn {
+    background: #0be69d;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+}
+
+.todo-item {
+    display: flex;
+    background: #fff;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 6px;
+}
+.todo-item-checked {
+    text-decoration: line-through;
+}
+.todo-item-description {
+    flex-grow: 1;
+    padding-left: 10px;
+}
+.todo-item-delete {
+    background: orange;
+    border: none;
+    cursor: pointer;
+    width: 95px;
+    padding: 6px;
+    border-radius: 5px;
+}
+
+.form-error-message {
+    font-size: small;
+    color: red;
+}
